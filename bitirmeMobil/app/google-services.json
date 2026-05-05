@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "127448412986",
+    "firebase_url": "https://akillikapi-default-rtdb.firebaseio.com",
+    "project_id": "akillikapi",
+    "storage_bucket": "akillikapi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127448412986:android:7a3a02a9ae8e96a71e5603",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjV9UlG5vLiaXTNM_VcBl5VcZSQMhxxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
