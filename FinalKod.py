@@ -13,7 +13,7 @@ time.sleep(2)
 app = FaceAnalysis(name="buffalo_l")
 app.prepare(ctx_id=0, det_size=(640, 640))
 cred = credentials.Certificate("C:/Users/tunahan/Desktop/bitirmeProjesi/akilliKapi.json")
-firebase_admin.initialize_app(cred, {"databaseURL": "https://akillikapi-default-rtdb.firebaseio.com/"})
+firebase_admin.initialize_app(cred, {"databaseURL": ""})
 
 raw = json.load(open("C:/Users/tunahan/Desktop/bitirmeProjesi/embeddings.json"))
 local_db = {}
