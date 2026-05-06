@@ -13,7 +13,7 @@ raw = json.load(open("C:/Users/tunahan/Desktop/bitirmeProjesi/embeddings.json"))
 
 cred = credentials.Certificate("C:/Users/tunahan/Desktop/bitirmeProjesi/akilliKapi.json")
 firebase_admin.initialize_app(cred, {
-    "databaseURL": "https://akillikapi-default-rtdb.firebaseio.com/"})
+    "databaseURL": ""})
 
 local_db = {}
 for name, poses in raw.items():
