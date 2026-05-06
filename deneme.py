@@ -20,7 +20,7 @@ yuz_analiz_modeli.prepare(ctx_id=0, det_size=(640, 640))
 # Firebase Yetkilendirme
 sertifika_yolu = "C:/Users/tunahan/Desktop/bitirmeProjesi/akilliKapi.json"
 cred = credentials.Certificate(sertifika_yolu)
-firebase_admin.initialize_app(cred, {"databaseURL": "https://akillikapi-default-rtdb.firebaseio.com/"})
+firebase_admin.initialize_app(cred, {"databaseURL": ""})
 
 # Kayıtlı Yüz Verilerini Yükleme
 veriler_yolu = "C:/Users/tunahan/Desktop/bitirmeProjesi/embeddings.json"
