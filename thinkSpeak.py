@@ -6,8 +6,8 @@ import numpy as np
 import onnxruntime as ort
 from insightface.app import FaceAnalysis
 
-THINGSPEAK_API_KEY = "W62I9TVG1D9IA4I2"  
-THINGSPEAK_URL = "https://api.thingspeak.com/update"
+THINGSPEAK_API_KEY = ""  
+THINGSPEAK_URL = ""
 
 app = FaceAnalysis(name="buffalo_l", providers=["CUDAExecutionProvider"])
 app.prepare(ctx_id=0, det_size=(640, 640))
